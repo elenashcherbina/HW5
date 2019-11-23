@@ -14,9 +14,8 @@
   <div class="wrapper">
     <header class="header">
       <div class="header-nav">
-        <a href="#" class="logo">bin
-          <span class="logo-yellow">
-            <span class="logo-yellow-uppercase">g</span>o</span>
+        <a href="#" class="logo">
+          <img src="img/BinGo.svg" alt="company logo">
         </a>
         <nav class="nav">
           <a class="nav-item" href="#">Home</a>
@@ -122,7 +121,11 @@
             <span class="section-stats-info">Income</span>
             <span class="section-stats-info section-stats-yellow">Expence</span>
           </div>
+          <div class="graphic-wrapper">
           <img src="../img/graphic.png" alt="statistic information">
+          <span class="stats-point-med">med</span>
+          <span class="stats-point-max">max</span>
+        </div>
         </div>
       </section>
       <section class="section-right section-right-new">
@@ -138,10 +141,10 @@
     </div>
     <div class="section-wrapper">
       <section class="section-left section-left-next">
-        <article class="section-right-article">
-          <h4 class="section-right-article-next">Next generation</h4>
-          <p class="article-text article-text-new">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
-          <img src="img/play.png" alt="play sign">
+        <article class="section-left-article article-next">
+          <h4 class="section-left-article-next">Next generation</h4>
+          <p class="article-text article-text-next">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+          <img class="play-sign"src="img/play.png" alt="play sign">
           <div class="arrow-block">
             <svg class="arrow-left" width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M5.21892 0.703796C5.44448 0.464132 5.7996 0.464132 6.02517 0.703796C6.24311 0.935364 6.24311 1.32077 6.02517 1.5518L1.93702 5.89545H15.4273C15.7418 5.89545 15.9999 6.16103 15.9999 6.49515C15.9999 6.82928 15.7418 7.10349 15.4273 7.10349H1.93702L6.02517 11.439C6.24311 11.6787 6.24311 12.0647 6.02517 12.2957C5.7996 12.5353 5.44448 12.5353 5.21892 12.2957L0.162971 6.92374C-0.0549748 6.69217 -0.0549748 6.30677 0.162971 6.07574L5.21892 0.703796Z"
@@ -152,15 +155,15 @@
                 fill="#96918D" />
             </svg>
           </div>
+        </article>
           <div class="section-left-next-info">
             <img src="img/cup.jpg" alt="phone in the hand">
-            <h5>Exercitationem ullam</h5>
+            <h5>Minimal veniam</h5>
             <p class="article-text-next">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed.</p>
-          </div>
-        </article>
+          </div> 
       </section>
       <section class="section-right section-right-next">
-        <h2 class="section-title">next</h2>
+        <h2 class="section-title section-title-next">next</h2>
         <div class="section-right-next-info">
           <img src="img/phone.jpg" alt="phone in the hand">
           <h5>Exercitationem ullam</h5>
@@ -180,7 +183,7 @@
         <p class="section-paragraph section-paragraph-right">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
           aliqua.
         </p>
-        <a class="link-learn-more"href="">LEARN MORE</a>
+        <a class="link-learn-more" href="">LEARN MORE</a>
         <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M1 0.5L4.5 3.5L1 7" stroke="#151F32" />
         </svg>
@@ -188,31 +191,35 @@
     </div>
     <div class="section-wrapper section-wrapper-programs">
       <section class="section-left section-left-programs">
-       <img  class="devices" src="img/device.jpg" alt="different devices">
+        <div class="red-triangle"></div>
+        <img class="devices" src="img/device.jpg" alt="different devices">
       </section>
-      <section class="section-right">
-        <h4>Our programs</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <a href="#">Subscribe</a>
+      <section class="section-right section-right-programs">
+        <div class="blue-box-program"></div>
+        <div class="inner-section">
+          <h4>Our programs</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua.
+          </p>
+          <a class="article-link subscribe" href="#">Subscribe</a>
+        </div>
       </section>
     </div>
     <footer class="mastfoot">
-      <div class="logo_description">
-      <a href="#" class="logo">bin
-        <span class="logo-yellow">
-          <span class="logo-yellow-uppercase">g</span>o</span>
-      </a>
-      <p>Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit, sed.</p>
-    </div>
-    <nav class="Company">
-      <h5>Company</h5>
-      <a href="#">News</a>
-      <a href="#">Technology</a>
-      <a href="#">Hiring</a>
-      <a href="#">Hiring</a>
-    </nav>
-    <nav class="Expand">
+      <div class="logo-description">
+        <a href="#" class="logo">
+          <img src="img/BinGo.svg" alt="company logo">
+        </a>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed.</p>
+      </div>
+      <nav class="Company">
+        <h5>Company</h5>
+        <a href="#">News</a>
+        <a href="#">Technology</a>
+        <a href="#">Hiring</a>
+        <a href="#">Hiring</a>
+      </nav>
+      <nav class="Expand">
         <h5>Expand</h5>
         <a href="#">Partners</a>
         <a href="#">Enterprise Service</a>
@@ -220,12 +227,12 @@
         <a href="#">Documentation</a>
       </nav>
       <nav class="Help">
-          <h5>Help</h5>
-          <a href="#">Help Centre</a>
-          <a href="#">Product</a>
-          <a href="#">Developer</a>
-          <a href="#">Tool</a>
-        </nav>
+        <h5>Help</h5>
+        <a href="#">Help Centre</a>
+        <a href="#">Product</a>
+        <a href="#">Developer</a>
+        <a href="#">Tool</a>
+      </nav>
     </footer>
   </div>
 </body>
