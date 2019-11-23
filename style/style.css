@@ -48,6 +48,7 @@
     font-weight: 700;
     font-size: 14px;
     padding-right: 5px;
+    cursor: pointer;
 }
 
 .nav-item:last-child,
@@ -199,7 +200,10 @@
     margin-bottom: 62px;
     color: var(--font-yellow-color);
 }
-
+.arrow-left,
+.arrow-right {
+    cursor: pointer;
+}
 .arrow-left {
     margin-right: 20px;
 }
